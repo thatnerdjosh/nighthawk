@@ -10,7 +10,7 @@ flask = "*"
 
 {% if cookiecutter.use_nuitka -%}
 [scripts]
-build = "pipenv run python -m nuitka --standalone main.py"
+build = "python -m nuitka --standalone main.py"
 
 [dev-packages]
 nuitka = "*"

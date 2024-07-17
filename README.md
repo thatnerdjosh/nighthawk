@@ -17,7 +17,7 @@ This is a Cookiecutter project template to jumpstart your development process. I
    Run the following command to generate a new project directory named after your project:
 
    ```bash
-   python generate.py
+   pipenv run build
    ```
 
 3. **Navigate to the Project:**

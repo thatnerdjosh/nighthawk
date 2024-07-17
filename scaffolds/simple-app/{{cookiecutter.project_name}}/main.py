@@ -8,10 +8,10 @@ def hello_world():
     return "<p>Hello, World!</p>"
 
 app.run(host='0.0.0.0', port=8000)
-{%- else -%}
+{% else -%}
 def main() -> int:
     return 0
 
 if __name__ == "__main__":
     main()
-{%- endif -%}
+{% endif -%}

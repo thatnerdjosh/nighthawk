@@ -6,6 +6,9 @@ name = "pypi"
 [packages]
 cookiecutter = "*"
 
+[scripts]
+build = "python generate.py"
+
 [dev-packages]
 
 [requires]
