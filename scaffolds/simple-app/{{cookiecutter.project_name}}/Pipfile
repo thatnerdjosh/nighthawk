@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "*"
+cython = "*"
+
+{%- if cookiecutter.use_nuitka -%}
+[scripts]
+build = "pipenv run python -m nuitka --standalone main.py"
+
+[dev-packages]
+nuitka = "*"
+{%- endif %}
+
+[requires]
+python_version = "3.10"

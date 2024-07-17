@@ -1,0 +1,5 @@
+{
+  "project_name": "sample_app",
+  "generate_api": "{{ cookiecutter.generate_api }}",
+  "use_nuitka": "{{ cookiecutter.use_nuitka}}"
+}
