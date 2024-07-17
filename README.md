@@ -4,23 +4,7 @@ This is a Cookiecutter project template to jumpstart your development process. I
 
 ### Getting Started
 
-1. **Generate the Project:**
-
-   Run the following command to generate a new project directory named after your project:
-
-   ```bash
-   python generate.py
-   ```
-
-2. **Navigate to the Project:**
-
-   Change directories into the newly generated project folder:
-
-   ```bash
-   cd <your_project_name>
-   ```
-
-3. **Install Development Dependencies:**
+1. **Install Development Dependencies:**
 
    Install the development dependencies using pipenv:
 
@@ -28,9 +12,57 @@ This is a Cookiecutter project template to jumpstart your development process. I
    pipenv install --dev
    ```
 
-4. **Build the Project:**
+2. **Generate the Project:**
 
-   Run the build command to build your project (the specific command might vary depending on your project type):
+   Run the following command to generate a new project directory named after your project:
+
+   ```bash
+   python generate.py
+   ```
+
+3. **Navigate to the Project:**
+
+   Change directories into the newly generated project folder:
+
+   ```bash
+   cd <your_project_name>
+   ```
+
+### Run your Project
+
+#### Flask API
+If you generated a Flask API, you can use it as follows:
+
+1. **Install Dependencies:**
+
+   Change directories into the newly generated project folder:
+
+   ```bash
+   pipenv install
+   ```
+
+2. **Run the App:**
+
+   Change directories into the newly generated project folder:
+
+   ```bash
+   pipenv run python main.py
+   ```
+
+#### Nuitka Binary (Optional)
+If you generated a Nuitka hardened/compiled project, you can build in this way:
+
+1. **Install Dependencies:**
+
+   Change directories into the newly generated project folder:
+
+   ```bash
+   pipenv install --dev
+   ```
+
+2. **Run the App:**
+
+   Change directories into the newly generated project folder:
 
    ```bash
    pipenv run build
