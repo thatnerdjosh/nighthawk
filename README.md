@@ -75,8 +75,10 @@ The generated project will have a basic structure that you can customize further
 * `README.md`: This file (you're reading it now!) contains instructions and information about the project.
 * `generate.py`: This script can be used to generate the project using Cookiecutter.
 * `<your_project_name>`: This directory contains your project's core source code and other relevant files.
-* `Pipfile`: This file manages your project's dependencies using pipenv.
-* `Pipfile.lock`: This lockfile ensures consistent dependencies across environments.
+	* `Pipfile`: This file manages your project's dependencies using pipenv.
+	* `Pipfile.lock`: This lockfile ensures consistent dependencies across environments.
+	* `setup.py`: Used for Nuitka builds (optional), otherwise not currently necessary.
+	* `.gitignore`: Used for ignoring files which should not be committed to the repostiory.
 
 ### Customization
 
