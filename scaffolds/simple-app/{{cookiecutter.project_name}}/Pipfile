@@ -3,9 +3,10 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
+{% if cookiecutter.generate_api -%}
 [packages]
 flask = "*"
-cython = "*"
+{%- endif %}
 
 {% if cookiecutter.use_nuitka -%}
 [scripts]
