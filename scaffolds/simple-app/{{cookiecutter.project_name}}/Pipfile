@@ -7,7 +7,7 @@ name = "pypi"
 flask = "*"
 cython = "*"
 
-{%- if cookiecutter.use_nuitka -%}
+{% if cookiecutter.use_nuitka -%}
 [scripts]
 build = "pipenv run python -m nuitka --standalone main.py"
 
